@@ -2,12 +2,40 @@
 body, html {
     height: 100%; font-family:monospace; background-color: #1aa3ad}
 
+/* general */
+h1 {font-size: 10em}
+/* general slut */ 
+
+
+/* header*/   
+header {width:100%; background-color: white;}
+.headericon {max-width:17%;margin-left: auto;}
+header h1 {margin-right: auto}
+.headercontainer {flex-wrap:wrap; display: flex; align-content: center; margin:auto}
+/* header slut */
+
+/* footer */
     footer {background-color: white; width:100%; position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     height:; text-align: center;}
     .ficon{max-width:17%; vertical-align: middle;}
+/* footer slut */ 
 
-h1{font-size: 10em}
-#keycard {height:100%}
+
+/* home */
+/* home slut */
+
+/* events */
+/* events slut */
+
+/* hangouts */
+/* hangouts slut */
+
+/* keycard */ 
+#keycard {width:100%;}
+/* keycard slut */ 
+
+/* profile */
+/* profile slut */
