@@ -201,6 +201,12 @@ tr {
     background-position: center;}
 #boardgames {background-image:url(../images/Boardgameimage.jpg);
     background-position: center;}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+    white-space: nowrap;}
+
 /* hangouts slut */
 
 /* keycard */
