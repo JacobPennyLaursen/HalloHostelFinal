@@ -179,6 +179,16 @@ tr {
 /* home slut */
 
 /* events */
+.eventblok {height: 38.5%; font-weight: 600}
+.eventblok img {width:22%;margin: 25% 5% 2% 5%}
+
+.eventblok h2 {font-size: 6em; padding: 1% 0% 0% 4%}
+.eventblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
+#quiznight {background-image:url(../images/image-quiz2.jpg);
+    background-position: center;}
+#gamenight {background-image:url(../images/image-game2.jpg);
+    background-position: center;}
+.afstand {padding-bottom: 17%} 
 /* events slut */
 
 /* hangouts */
