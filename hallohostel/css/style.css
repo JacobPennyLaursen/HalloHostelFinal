@@ -1,9 +1,15 @@
-
 body, html {
-    height: 100%; font-family: 'work sans'; background-color: white}
+  height: 100%;
+  font-family: 'work sans';
+  background-color: white
+}
 
 /* general */
-h1 {font-size: 5em; font-weight: 600}
+
+h1 {
+  font-size: 5em;
+  font-weight: 600
+}
 
 h2 {
   font-size: 2em;
@@ -15,27 +21,58 @@ h3 {
   font-size: 1.7em;
   margin-top: 2%;
 }
+
 /* general slut */
 
-
 /* header*/
-header {width:100%; background-color: white;}
-.headericon {max-width:17%;margin-left: auto;}
-header h1 {margin-right: auto; padding: 5% 2%}
-.headercontainer {flex-wrap:wrap; display: flex; align-content: center; margin:auto; vertical-align: middle}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+
+.headericon {
+  max-width: 17%;
+  margin-left: auto;
+}
+
+header h1 {
+  margin-right: auto;
+  padding: 5% 2%
+}
+
+.headercontainer {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  vertical-align: middle
+}
+
 /* header slut */
 
 /* footer */
-    footer {background-color: white; width:100%; position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:; text-align: center;}
-    .ficon{max-width:17%; vertical-align: middle;}
+
+footer {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: ;
+  text-align: center;
+}
+
+.ficon {
+  max-width: 17%;
+  vertical-align: middle;
+}
+
 /* footer slut */
 
-
 /* home */
+
 .yellow {
   background: none;
   color: #f9bb12;
@@ -176,9 +213,11 @@ table {
 tr {
   background-color: white;
 }
+
 /* home slut */
 
 /* events */
+<<<<<<< Updated upstream
 .eventblok {height: 38.5%; font-weight: 600}
 .eventblok img {width:22%;margin: 25% 5% 2% 5%}
 
@@ -188,7 +227,7 @@ tr {
     background-position: center;}
 #gamenight {background-image:url(../images/image-game2.jpg);
     background-position: center;}
-.afstand {padding-bottom: 17%} 
+.afstand {padding-bottom: 17%}
 /* events slut */
 
 /* hangouts */
@@ -212,7 +251,68 @@ tr {
 /* keycard */
 #keycard {width:100%;}
 .keycardbackground {background-color: #1aa3ad}
+=======
+
+/* events slut */
+
+/* hangouts */
+
+/* hangouts slut */
+
+/* keycard */
+
+#keycard {
+  width: 100%;
+}
 /* keycard slut */
 
 /* profile */
+.profile {
+  height: 80%;
+  background-image: url(../images/profile-background.png);
+  background-position: center;
+  color: white;
+}
+
+.profile-image {
+  width: 100%;
+  padding: 10%;
+  padding-left: 50%;
+  padding-top: 50%;
+}
+
+.profile-text {
+  padding-left: 20%;
+  padding-top: 8%;
+  margin-top: 2em;
+  padding-bottom: 15%;
+}
+
+.profile-heading {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.profile-text p {
+  padding-bottom: 2%;
+  font-size: 2em;
+}
+
+.profile-info {
+  display: flex;
+  padding-bottom: 10%;
+}
+
+.profile-button {
+  background-color: #1aa3ad;
+  border-radius: 10px;
+  padding: 6%;
+  margin-bottom: 8%;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+
+
 /* profile slut */
