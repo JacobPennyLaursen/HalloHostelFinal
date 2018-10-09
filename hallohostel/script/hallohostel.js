@@ -7,3 +7,4 @@ document.querySelector('.close').addEventListener('click',
 function() {
   document.querySelector('.info').style.display = 'none';
 });
+

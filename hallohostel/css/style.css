@@ -192,10 +192,20 @@ tr {
 /* events slut */
 
 /* hangouts */
+.hangoutblok {height: 38.5%; font-weight: 600}
+.hangoutblok img {width:22%;margin: 25% 5% 2% 5%}
+
+.hangoutblok h2 {font-size: 6em; padding: 1% 0% 0% 4%}
+.hangoutblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
+#cooktogether {background-image:url(../images/cooktogetherimage.jpg);
+    background-position: center;}
+#boardgames {background-image:url(../images/Boardgameimage.jpg);
+    background-position: center;}
 /* hangouts slut */
 
 /* keycard */
 #keycard {width:100%;}
+.keycardbackground {background-color: #1aa3ad}
 /* keycard slut */
 
 /* profile */
