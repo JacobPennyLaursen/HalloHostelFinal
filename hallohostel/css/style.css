@@ -1,13 +1,24 @@
 
 body, html {
-    height: 100%; font-family:monospace; background-color: #1aa3ad}
+    height: 100%; font-family: 'work sans'; background-color: #1aa3ad}
 
 /* general */
 h1 {font-size: 10em}
-/* general slut */ 
+
+h2 {
+  font-size: 2em;
+  padding: 4%;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.7em;
+  margin-top: 2%;
+}
+/* general slut */
 
 
-/* header*/   
+/* header*/
 header {width:100%; background-color: white;}
 .headericon {max-width:17%;margin-left: auto;}
 header h1 {margin-right: auto}
@@ -21,10 +32,150 @@ header h1 {margin-right: auto}
     right: 0;
     height:; text-align: center;}
     .ficon{max-width:17%; vertical-align: middle;}
-/* footer slut */ 
+/* footer slut */
 
 
 /* home */
+.yellow {
+  background: none;
+  color: #f9bb12;
+}
+
+.event1 {
+  background-color: lightblue;
+  background-image: url(../images/image-quiz.jpg);
+  background-position: center;
+  border-radius: 10px;
+  margin: 3%;
+  padding: 2%;
+  height: 20%;
+  font-weight: 600;
+  color: #22464a;
+}
+
+.event2 {
+  background-color: lightblue;
+  background-image: url(../images/image-game.jpg);
+  background-position: center;
+  border-radius: 10px;
+  margin: 3%;
+  padding: 2%;
+  height: 20%;
+  font-weight: 600;
+  color: #22464a;
+  margin-bottom: 18%;
+}
+
+.event1 img {
+  width: 20%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.event2 img {
+  width: 20%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.icon {
+  margin-top: 1.4em;
+  text-align: center;
+}
+
+.top-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 10%;
+}
+
+/* Pop up box */
+
+.info {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  margin-bottom: 18%;
+}
+
+.info-content {
+  width: 80%;
+  height: 80%;
+  background-color: #1aa3ad;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.info-header {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+table {
+  margin-top: 10%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.table-image {
+  width: 20%;
+  padding: 2%;
+  vertical-align: middle;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.table-text {
+  width: 70%;
+  padding: 2%;
+  vertical-align: middle;
+  border-radius: 0px 10px 10px 0px;
+}
+
+tr {
+  background-color: white;
+}
 /* home slut */
 
 /* events */
@@ -33,9 +184,9 @@ header h1 {margin-right: auto}
 /* hangouts */
 /* hangouts slut */
 
-/* keycard */ 
+/* keycard */
 #keycard {width:100%;}
-/* keycard slut */ 
+/* keycard slut */
 
 /* profile */
 /* profile slut */
