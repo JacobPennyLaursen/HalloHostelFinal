@@ -3,7 +3,7 @@ body, html {
     height: 100%; font-family: 'work sans'; background-color: #1aa3ad}
 
 /* general */
-h1 {font-size: 10em}
+h1 {font-size: 5em; font-weight: 600}
 
 h2 {
   font-size: 2em;
@@ -21,8 +21,8 @@ h3 {
 /* header*/
 header {width:100%; background-color: white;}
 .headericon {max-width:17%;margin-left: auto;}
-header h1 {margin-right: auto}
-.headercontainer {flex-wrap:wrap; display: flex; align-content: center; margin:auto}
+header h1 {margin-right: auto; padding: 5% 2%}
+.headercontainer {flex-wrap:wrap; display: flex; align-content: center; margin:auto; vertical-align: middle}
 /* header slut */
 
 /* footer */
