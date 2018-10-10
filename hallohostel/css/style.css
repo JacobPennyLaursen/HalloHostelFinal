@@ -28,6 +28,7 @@ a {
 }
 
 /* Joined Popup window */
+
 .j-popup {
   height: 100%;
   width: 100%;
@@ -74,6 +75,7 @@ a {
 }
 
 /* Participants Popup window */
+
 .p-popup {
   height: 100%;
   width: 100%;
@@ -167,6 +169,65 @@ footer {
 }
 
 /* footer slut */
+
+
+/* Sign up */
+
+#signup {
+  background-image: url(../images/signup-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-heading {
+  display: block;
+  width: 70%;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-table {
+  margin-left: auto;
+  margin-right: auto;
+  top: 1px;
+  margin-top: 19em;
+}
+
+.signup-table td {
+  background-color: #1aa3ad;
+}
+
+.signup-img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.signup-img1 {
+  height: 20%;
+  padding: 1em;
+}
+
+.signup-img2 {
+  height: 12%;
+  padding: 1em;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+}
+
+.signup-text {
+  color: white;
+  padding: 1em;
+  vertical-align: middle;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#signup a {
+  color: white;
+}
+
+/* Sign up slut */
+
 
 /* home */
 
@@ -321,49 +382,101 @@ tr {
 /* home slut */
 
 /* events */
-.eventblok {height: 38.5%; font-weight: 600}
-.eventblok img {width:22%;margin: 0% 5% 2% 5%}
 
-.eventblok h2 {font-size: 6em; padding: 1% 0% 0% 4%; margin-bottom: 25%}
-.eventblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
-#quiznight {background-image:url(../images/image-quiz2.jpg);
-    background-position: center;}
-#gamenight {background-image:url(../images/image-game2.jpg);
-    background-position: center;}
-.afstand {padding-bottom: 17%}
+.eventblok {
+  height: 38.5%;
+  font-weight: 600
+}
+
+.eventblok img {
+  width: 22%;
+  margin: 0% 5% 2% 5%
+}
+
+.eventblok h2 {
+  font-size: 6em;
+  padding: 1% 0% 0% 4%;
+  margin-bottom: 25%
+}
+
+.eventblok h3 {
+  font-size: 3em;
+  padding: 4% 0% 0% 4%;
+  margin: 0%
+}
+
+#quiznight {
+  background-image: url(../images/image-quiz2.jpg);
+  background-position: center;
+}
+
+#gamenight {
+  background-image: url(../images/image-game2.jpg);
+  background-position: center;
+}
+
+.afstand {
+  padding-bottom: 17%
+}
+
 /* events slut */
 
-
-
 /* hangouts */
-.hangoutblok {height: 38.5%; font-weight: 600}
-.hangoutblok img {width:22%;margin: 0% 5% 2% 5%}
 
-.hangoutblok h2 {font-size: 6em; padding: 1% 0% 0% 4%;margin-bottom: 25%}
-.hangoutblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
-#cooktogether {background-image:url(../images/cooktogetherimage.jpg);
-    background-position: center;}
-#boardgames {background-image:url(../images/Boardgameimage.jpg);
-    background-position: center;}
+.hangoutblok {
+  height: 38.5%;
+  font-weight: 600
+}
+
+.hangoutblok img {
+  width: 22%;
+  margin: 0% 5% 2% 5%
+}
+
+.hangoutblok h2 {
+  font-size: 6em;
+  padding: 1% 0% 0% 4%;
+  margin-bottom: 25%
+}
+
+.hangoutblok h3 {
+  font-size: 3em;
+  padding: 4% 0% 0% 4%;
+  margin: 0%
+}
+
+#cooktogether {
+  background-image: url(../images/cooktogetherimage.jpg);
+  background-position: center;
+}
+
+#boardgames {
+  background-image: url(../images/Boardgameimage.jpg);
+  background-position: center;
+}
 
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
-    white-space: nowrap;}
+  white-space: nowrap;
+}
 
 /* hangouts slut */
 
-
-
 /* keycard */
-#keycard {width:100%;}
-.keycardbackground {background-color: #1aa3ad}
+
+#keycard {
+  width: 100%;
+}
+
+.keycardbackground {
+  background-color: #1aa3ad
+}
 
 /* keycard slut */
 
-
-
 /* profile */
+
 .profile {
   height: 80%;
   background-image: url(../images/profile-background.png);
@@ -412,24 +525,88 @@ font-size:1.4em; font-weight: 600;}
   text-align: center;
 }
 
-
 /* profile slut */
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
 
-.swiper-container {width: 100%; height: 100%;}
-.swiper-slide {height:100%; width:100% }
-.swiper-slide p {margin:80%; font-size:1px}
-#eventsheader {height:100px; background-color: white opacity 0.8;}
-#eventsheader h1{font-size: 2em; padding:10% 2%; margin-right: auto;}
-#event1{height:100%;width:100%; background-image:url(../images/quiz-night.jpg);background-size: 100% 100%;}
-#event2{height:100%;width:100%; background-image:url(../images/hallo-game-night.jpg); background-size:100% 100%;}
-#event3{height:100%;width:100%; background-image:url(../images/quiz-night.jpg);background-size: 100% 100%;}
-a {text-decoration: none; color:black}
+.swiper-slide {
+  height: 100%;
+  width: 100%
+}
+
+.swiper-slide p {
+  margin: 80%;
+  font-size: 1px
+}
+
+#eventsheader {
+  height: 100px;
+  background-color: white opacity 0.8;
+}
+
+#eventsheader h1 {
+  font-size: 2em;
+  padding: 10% 2%;
+  margin-right: auto;
+}
+
+#event1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/quiz-night.jpg);
+  background-size: 100% 100%;
+}
+
+#event2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/hallo-game-night.jpg);
+  background-size: 100% 100%;
+}
+
+#event3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/quiz-night.jpg);
+  background-size: 100% 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
 /* events fullscreen slut  */
 
 /* hangouts fullscreen */
-#hangout1{height:100%;width:100%; background-image:url(../images/hallo-cook-together.jpg);background-size: 100% 100%;}
-#hangout2{height:100%;width:100%; background-image:url(../images/hallo-boardgames.jpg); background-size:100% 100%;}
-#hangout3{height:100%;width:100%; background-image:url(../images/hallo-cook-together.jpg);background-size: 100% 100%;}
-a {text-decoration: none; color:black}
+
+#hangout1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/hallo-cook-together.jpg);
+  background-size: 100% 100%;
+}
+
+#hangout2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/hallo-boardgames.jpg);
+  background-size: 100% 100%;
+}
+
+#hangout3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/hallo-cook-together.jpg);
+  background-size: 100% 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
 /* hangouts fullscreen slut */
