@@ -22,6 +22,103 @@ h3 {
   margin-top: 2%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Joined Popup window */
+.j-popup {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18%;
+  display: none;
+}
+
+.j-popup-content {
+  width: 80%;
+  height: 80%;
+  background-color: #1aa3ad;
+  background-image: url(../images/joined.jpg);
+  background-size: 100% 100%;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+
+.j-popup-content img {
+  width: 100%;
+}
+
+.j-close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.j-icon1 {
+  cursor: pointer;
+}
+
+.j-icon2 {
+  cursor: pointer;
+}
+
+/* Participants Popup window */
+.p-popup {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18%;
+  display: none;
+}
+
+.p-popup-content {
+  width: 80%;
+  height: 80%;
+  background-color: #1aa3ad;
+  background-image: url(../images/participants.jpg);
+  background-size: 100% 100%;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+
+.p-popup-content img {
+  width: 100%;
+}
+
+.p-close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.p-icon1 {
+  cursor: pointer;
+}
+
+.p-icon2 {
+  cursor: pointer;
+}
+
 /* general slut */
 
 /* header*/
@@ -143,11 +240,12 @@ footer {
   width: 50%;
 }
 
-#button {
+#q-button {
   position: absolute;
   top: 14px;
   right: 14px;
   width: 10%;
+  cursor: pointer;
 }
 
 /* Pop up box */
@@ -188,6 +286,12 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+}
+
+.yellow-heading {
+  background: none;
+  color: #f9bb12;
+  font-weight: 600;
 }
 
 table {
