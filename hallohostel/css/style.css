@@ -307,5 +307,23 @@ tr {
 }
 
 
-
 /* profile slut */
+
+
+.swiper-container {width: 100%; height: 100%;}
+.swiper-slide {height:100%; width:100% }
+.swiper-slide p {margin:80%; font-size:1px}
+#eventsheader {height:100px; background-color: white opacity 0.8;}
+#eventsheader h1{font-size: 2em; padding:10% 2%; margin-right: auto;}
+#event1{height:100%;width:100%; background-image:url(../images/quiz-night.jpg);background-size: 100% 100%;}
+#event2{height:100%;width:100%; background-image:url(../images/hallo-game-night.jpg); background-size:100% 100%;}
+#event3{height:100%;width:100%; background-image:url(../images/quiz-night.jpg);background-size: 100% 100%;}
+a {text-decoration: none; color:black}
+/* events fullscreen slut  */
+
+/* hangouts fullscreen */
+#hangout1{height:100%;width:100%; background-image:url(../images/hallo-cook-together.jpg);background-size: 100% 100%;}
+#hangout2{height:100%;width:100%; background-image:url(../images/hallo-boardgames.jpg); background-size:100% 100%;}
+#hangout3{height:100%;width:100%; background-image:url(../images/hallo-cook-together.jpg);background-size: 100% 100%;}
+a {text-decoration: none; color:black}
+/* hangouts fullscreen slut */
