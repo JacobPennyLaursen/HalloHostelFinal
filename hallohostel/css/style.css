@@ -22,6 +22,11 @@ h3 {
   margin-top: 2%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Joined Popup window */
 .j-popup {
   height: 100%;
@@ -281,6 +286,12 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+}
+
+.yellow-heading {
+  background: none;
+  color: #f9bb12;
+  font-weight: 600;
 }
 
 table {
