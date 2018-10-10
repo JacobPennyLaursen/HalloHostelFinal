@@ -311,9 +311,9 @@ tr {
 
 /* events */
 .eventblok {height: 38.5%; font-weight: 600}
-.eventblok img {width:22%;margin: 25% 5% 2% 5%}
+.eventblok img {width:22%;margin: 0% 5% 2% 5%}
 
-.eventblok h2 {font-size: 6em; padding: 1% 0% 0% 4%}
+.eventblok h2 {font-size: 6em; padding: 1% 0% 0% 4%; margin-bottom: 25%}
 .eventblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
 #quiznight {background-image:url(../images/image-quiz2.jpg);
     background-position: center;}
@@ -326,9 +326,9 @@ tr {
 
 /* hangouts */
 .hangoutblok {height: 38.5%; font-weight: 600}
-.hangoutblok img {width:22%;margin: 25% 5% 2% 5%}
+.hangoutblok img {width:22%;margin: 0% 5% 2% 5%}
 
-.hangoutblok h2 {font-size: 6em; padding: 1% 0% 0% 4%}
+.hangoutblok h2 {font-size: 6em; padding: 1% 0% 0% 4%;margin-bottom: 25%}
 .hangoutblok h3 {font-size: 3em; padding: 4% 0% 0% 4%;margin:0%}
 #cooktogether {background-image:url(../images/cooktogetherimage.jpg);
     background-position: center;}
