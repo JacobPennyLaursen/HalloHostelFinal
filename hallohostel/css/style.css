@@ -372,9 +372,9 @@ tr {
 }
 
 .profile-image {
-  width: 100%;
-  padding: 10%;
-  padding-left: 50%;
+  width: 120%;
+  padding: 8%;
+  padding-left: 30%;
   padding-top: 50%;
 }
 
@@ -382,7 +382,7 @@ tr {
   padding-left: 20%;
   padding-top: 8%;
   margin-top: 2em;
-  padding-bottom: 15%;
+  padding-bottom: 8%;
 }
 
 .profile-heading {
@@ -398,7 +398,9 @@ tr {
 .profile-info {
   display: flex;
   padding-bottom: 10%;
-}
+font-size:1.4em; font-weight: 600;}
+
+.profile-button h3 {font-weight: 600; font-size:3em}
 
 .profile-button {
   background-color: #1aa3ad;
