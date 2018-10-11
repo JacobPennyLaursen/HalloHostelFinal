@@ -11,6 +11,8 @@ function() {
   document.querySelector('.info').style.display = 'none';
 });
 
+
+
 /* event 1 join button*/
 document.querySelector('.j-icon1').addEventListener('click',
 function() {
